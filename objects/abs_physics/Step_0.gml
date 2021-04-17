@@ -1,0 +1,2 @@
+/// @physics
+phys_step();
