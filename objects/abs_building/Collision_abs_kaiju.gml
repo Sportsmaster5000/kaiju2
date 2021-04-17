@@ -1,0 +1,1 @@
+/// @description Sends the building flying upon collision with a kaiju.
