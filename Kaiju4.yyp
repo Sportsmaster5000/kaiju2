@@ -39,7 +39,6 @@
     {"id":{"name":"abs_kaiju","path":"objects/abs_kaiju/abs_kaiju.yy",},"order":2,},
     {"id":{"name":"spr_kaijuBody2","path":"sprites/spr_kaijuBody2/spr_kaijuBody2.yy",},"order":2,},
     {"id":{"name":"spr_block","path":"sprites/spr_block/spr_block.yy",},"order":0,},
-    {"id":{"name":"spr_bullet","path":"sprites/spr_bullet/spr_bullet.yy",},"order":0,},
     {"id":{"name":"obj_message","path":"objects/obj_message/obj_message.yy",},"order":0,},
     {"id":{"name":"bg_levelboss","path":"sprites/bg_levelboss/bg_levelboss.yy",},"order":3,},
     {"id":{"name":"spr_skyscraper","path":"sprites/spr_skyscraper/spr_skyscraper.yy",},"order":1,},
@@ -69,6 +68,7 @@
     {"id":{"name":"spr_kaijuBody1","path":"sprites/spr_kaijuBody1/spr_kaijuBody1.yy",},"order":1,},
     {"id":{"name":"obj_transitionActivate","path":"objects/obj_transitionActivate/obj_transitionActivate.yy",},"order":0,},
     {"id":{"name":"spr_pencil","path":"sprites/spr_pencil/spr_pencil.yy",},"order":3,},
+    {"id":{"name":"spr_bullet","path":"sprites/spr_bullet/spr_bullet.yy",},"order":3,},
     {"id":{"name":"room_level1","path":"rooms/room_level1/room_level1.yy",},"order":1,},
   ],
   "Options": [

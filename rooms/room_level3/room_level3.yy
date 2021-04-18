@@ -15,6 +15,10 @@
   "layers": [
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_water","path":"objects/obj_water/obj_water.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":48.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-96.0,"y":864.0,"resourceVersion":"1.0","name":"inst_27EDEBE5","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_skyscraper","path":"objects/obj_skyscraper/obj_skyscraper.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":491.0,"y":504.0,"resourceVersion":"1.0","name":"inst_31C647A6","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_skyscraper","path":"objects/obj_skyscraper/obj_skyscraper.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":578.0,"y":504.0,"resourceVersion":"1.0","name":"inst_47AB5EDF","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_house","path":"objects/obj_house/obj_house.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":563.0,"y":544.0,"resourceVersion":"1.0","name":"inst_304F63D1","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_house","path":"objects/obj_house/obj_house.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":685.0,"y":672.0,"resourceVersion":"1.0","name":"inst_71BE1F73","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Water","tags":[],"resourceType":"GMRInstanceLayer",},
     {"spriteId":{"name":"bg_level3","path":"sprites/bg_level3/bg_level3.yy",},"colour":4294967295,"x":96,"y":440,"htiled":false,"vtiled":false,"hspeed":0.0,"vspeed":0.0,"stretch":false,"animationFPS":30.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Map","tags":[],"resourceType":"GMRBackgroundLayer",},
     {"instances":[
@@ -66,6 +70,10 @@
     {"name":"inst_D34F303","path":"rooms/room_level3/room_level3.yy",},
     {"name":"inst_4956FCAA","path":"rooms/room_level3/room_level3.yy",},
     {"name":"inst_27EDEBE5","path":"rooms/room_level3/room_level3.yy",},
+    {"name":"inst_31C647A6","path":"rooms/room_level3/room_level3.yy",},
+    {"name":"inst_47AB5EDF","path":"rooms/room_level3/room_level3.yy",},
+    {"name":"inst_304F63D1","path":"rooms/room_level3/room_level3.yy",},
+    {"name":"inst_71BE1F73","path":"rooms/room_level3/room_level3.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

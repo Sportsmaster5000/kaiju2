@@ -11,7 +11,7 @@ function level_initialize()
 function level_transition(_room)
 {
 	global.scale = scale;
-	global.peopleEaten = 0;s
+	global.peopleEaten = 0;
 	
 	room_goto(_room);
 }
