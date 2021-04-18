@@ -2,7 +2,7 @@
 
 var _hdir = 0;
 
-if (distance_to_object(abs_kaiju) < 32)
+if (distance_to_object(abs_kaiju) < 64)
 {
 	var _nearest = instance_nearest(x, y, abs_kaiju);
 	_hdir = sign(x - _nearest.x);
