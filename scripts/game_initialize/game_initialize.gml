@@ -17,6 +17,8 @@ function game_initialize()
 	//Go to first room.w
 	room_goto(ROOM_TITLE_SCREEN);
 	
+	draw_set_font(fnt_default);
+	
 	//set cursor.
 	/*
 	window_set_cursor(cr_none);

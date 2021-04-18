@@ -32,17 +32,26 @@ function player_jump()
 /// @description draws HP, SP, and meters.
 function player_draw_gui() 
 {
-
-/*
-	var _powerName = powerSet[powerIndex].name;
-	draw_set_halign(fa_left);
-	draw_text(5, 5, "HP: " );
-	draw_text(5, 25, "Stars: " + string(global.stars) + " / " + string(global.maxStars));
-
-	meter_draw(32, 5, 105, 20, c_black, c_red, c_yellow, c_gray, 1, hp, global.maxHP);
-	//meter_draw(32, 25, 105, 40, c_black, c_blue, c_yellow, c_gray, 1, pp, global.maxPP);
+	draw_text_color(5, 6, "HP:" + string(global.hp) + "/" + string(global.maxHP), c_black, c_black, c_black, c_black, 1);
+	draw_text_color(5, 5, "HP:" + string(global.hp) + "/" + string(global.maxHP), c_dkgray, c_dkgray, c_dkgray, c_dkgray, 1);
 	
-	draw_text(5, 45, "Item: " + _powerName);
-	*/
+	
+	draw_text_color(5, 26, "People Eaten:" + string(global.peopleEaten) + "/" + string(global.peopleCount), c_black, c_black, c_black, c_black, 1);
+	draw_text_color(5, 25, "People Eaten:" + string(global.peopleEaten) + "/" + string(global.peopleCount), c_dkgray, c_dkgray, c_dkgray, c_dkgray, 1);
 }
 
+/// @function player_eat_person(_person)
+/// @description Run this on player collision with a human object. Destroys the human and increments score.
+/// @param _person A reference to the human object being eaten.
+function player_eat_person(_person)
+{
+	scale += 0.01;
+	image_xscale = facing * scale;
+	image_yscale = scale;
+	global.peopleEaten++;
+
+	with (_person) 
+	{
+		instance_destroy();
+	}
+}

@@ -1,0 +1,1 @@
+global.peopleCount = instance_number(obj_human);

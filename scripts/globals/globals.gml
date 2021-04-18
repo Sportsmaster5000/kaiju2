@@ -6,6 +6,9 @@ function globals()
 	//Player stats.
 	global.maxHP = 5;
 	global.hp = global.maxHP;
+	
+	global.peopleEaten = 0;
+	global.peopleCount = 0;
 
 	//Indexes for player clothing options.
 	global.playerHeadIndex = 0;
