@@ -2,7 +2,9 @@
 
 if (hsp == 0)
 {
-	hsp = 5;
+	var _hdir = sign(x - other.x);
+	
+	hsp = 5 * _hdir;
 	vsp = -5;
 	angleSpeed = 1;
 }
