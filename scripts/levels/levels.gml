@@ -13,5 +13,8 @@ function level_transition(_room)
 	global.scale = scale;
 	global.peopleEaten = 0;
 	
-	room_goto(_room);
+	//The room the player will be sent to after the character creator.
+	global.roomTo = room_next(room);
+	
+	room_goto(ROOM_CHARACTER_CREATOR);
 }

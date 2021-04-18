@@ -1,4 +1,4 @@
-/// @function globals();
+/// @function globas();
 /// @description Initializes global variables.
 function globals() 
 {
@@ -10,6 +10,10 @@ function globals()
 	global.peopleEaten = 0;
 	global.peopleCount = 0;
 	global.scale = 1;
+
+
+	//The room the player will be sent t after visiting the character creator.
+	global.roomTo = room_level1;
 
 	//Indexes for player clothing options.
 	global.playerHeadIndex = 0;

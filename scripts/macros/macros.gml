@@ -27,7 +27,7 @@
 #macro BLOCK obj_block //Wall objects.
 #macro PLAYER obj_player //Pointer to player object. There should only be one on the map at once.
 #macro ROOM_TITLE_SCREEN room_characterCreationMenu //Title screen room.
-#macro ROOM_CHARACTER_CREATOR noone
+#macro ROOM_CHARACTER_CREATOR room_characterCreationMenu
 #macro ROOM_INTRO_SCREEN noone //Title screen room.
 #macro ROOM_START_GAME room_level1//Points to starting room.
 #macro CURSOR noone //Points to cursor sprite.
