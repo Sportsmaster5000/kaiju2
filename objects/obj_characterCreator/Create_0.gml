@@ -6,6 +6,6 @@ _array[2] = "< COLOR >"
 _array[3] = "FINISHED"
 
 //Initializes kaiju variables so it can display a preview of the player's kaiju.
-kaiju_initialize(1, global.heads[global.playerHeadIndex], global.bodies[global.playerBodyIndex], global.colors[global.playerColorIndex]);
+kaiju_initialize(1, global.heads[global.playerHeadIndex], global.bodies[global.playerBodyIndex], global.colors[global.playerColorIndex], 2);
 
 menu_create(_array);

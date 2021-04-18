@@ -9,6 +9,7 @@ function globals()
 	
 	global.peopleEaten = 0;
 	global.peopleCount = 0;
+	global.scale = 1;
 
 	//Indexes for player clothing options.
 	global.playerHeadIndex = 0;

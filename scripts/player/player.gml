@@ -54,4 +54,9 @@ function player_eat_person(_person)
 	{
 		instance_destroy();
 	}
+	
+	if (global.peopleEaten == global.peopleCount)
+	{
+		level_transition(room_next(room));
+	}
 }

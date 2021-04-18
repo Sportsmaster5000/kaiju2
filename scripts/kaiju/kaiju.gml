@@ -3,13 +3,17 @@
 /// @param _maxHP maximum hp for this monster
 /// @param _headSprite The head sprite for this monster.
 /// @param _bodySprite The body sprite for this monster.
-function kaiju_initialize(_maxHP, _headSprite, _bodySprite, _color)
+/// @param _scale The size the kaiju will be.
+function kaiju_initialize(_maxHP, _headSprite, _bodySprite, _color, _scale)
 {
 	maxHP = _maxHP;
 	hp = maxHP;
 	headSprite = _headSprite;
 	bodySprite = _bodySprite;
 	color = _color;
+	scale = _scale;
+	image_xscale = scale;
+	image_yscale = scale;
 	
 	//The angle the spell is being cast at. If no spell is being cast it is at -1.
 	angle = -1;
