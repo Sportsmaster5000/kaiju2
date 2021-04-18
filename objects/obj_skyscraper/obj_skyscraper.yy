@@ -7,7 +7,10 @@
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "abs_building",
+    "path": "objects/abs_building/abs_building.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
