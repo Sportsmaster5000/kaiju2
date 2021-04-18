@@ -29,7 +29,7 @@ if (_increment != 0)
 
 if (optionSelected == 3) && (FACE_BUTTON_RELEASED)
 {
-		room_goto(global.roomTo)
+		room_goto(room_introScreen)
 }
 
 // Inherit the parent event

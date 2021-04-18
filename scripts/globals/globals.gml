@@ -14,6 +14,9 @@ function globals()
 
 	//The room the player will be sent t after visiting the character creator.
 	global.roomTo = room_level1;
+	
+	//Text that shows up on the intro screen	
+	global.introText = "Mother nature has created your species to take vengeance on mankind. Progress through levels by eating all humans. Upon completing a level your offspring will continue on to the next level.";
 
 	//Indexes for player clothing options.
 	global.playerHeadIndex = 0;
