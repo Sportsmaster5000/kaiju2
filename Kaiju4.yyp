@@ -34,6 +34,7 @@
     {"id":{"name":"spr_oneWay","path":"sprites/spr_oneWay/spr_oneWay.yy",},"order":1,},
     {"id":{"name":"powers","path":"scripts/powers/powers.yy",},"order":8,},
     {"id":{"name":"spr_kaijuBody3","path":"sprites/spr_kaijuBody3/spr_kaijuBody3.yy",},"order":3,},
+    {"id":{"name":"room_introScreen","path":"rooms/room_introScreen/room_introScreen.yy",},"order":6,},
     {"id":{"name":"physics","path":"scripts/physics/physics.yy",},"order":3,},
     {"id":{"name":"spr_kaijuHead2","path":"sprites/spr_kaijuHead2/spr_kaijuHead2.yy",},"order":2,},
     {"id":{"name":"abs_kaiju","path":"objects/abs_kaiju/abs_kaiju.yy",},"order":2,},
@@ -42,6 +43,7 @@
     {"id":{"name":"obj_message","path":"objects/obj_message/obj_message.yy",},"order":0,},
     {"id":{"name":"bg_levelboss","path":"sprites/bg_levelboss/bg_levelboss.yy",},"order":3,},
     {"id":{"name":"spr_skyscraper","path":"sprites/spr_skyscraper/spr_skyscraper.yy",},"order":1,},
+    {"id":{"name":"obj_introMenu","path":"objects/obj_introMenu/obj_introMenu.yy",},"order":3,},
     {"id":{"name":"kaiju","path":"scripts/kaiju/kaiju.yy",},"order":2,},
     {"id":{"name":"room_level3","path":"rooms/room_level3/room_level3.yy",},"order":3,},
     {"id":{"name":"spr_kaijuHead3","path":"sprites/spr_kaijuHead3/spr_kaijuHead3.yy",},"order":3,},
@@ -91,6 +93,7 @@
     {"roomId":{"name":"room_level3","path":"rooms/room_level3/room_level3.yy",},},
     {"roomId":{"name":"room_boss","path":"rooms/room_boss/room_boss.yy",},},
     {"roomId":{"name":"room_characterCreationMenu","path":"rooms/room_characterCreationMenu/room_characterCreationMenu.yy",},},
+    {"roomId":{"name":"room_introScreen","path":"rooms/room_introScreen/room_introScreen.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
